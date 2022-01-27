@@ -10,9 +10,8 @@ class Account:
         self.currency = currency
         self.initial_balance = initial_balance
         self.timestamp = datetime.datetime.now()
-    @property
-    def account_number(self):
-        return self.account_number
+    
+   
 
     
 class Trans:
